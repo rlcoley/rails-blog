@@ -1,0 +1,17 @@
+
+<div class="blog_page">
+
+  <div class="title_and_blog">
+    <div class="blogit"> <h1>Blog It</h1> </div>
+    <div class="wrapper">
+      <div class="write_blog">
+        <%= form_for Blog.new do |b| %>
+          <div class=""> <%= b.text_field :title, placeholder: "title", class: "blog_title" %> </div>
+          <br>
+          <div class=""> <%= b.text_area :content, placeholder: "content", class: "blog_content" %> </div>
+          <%=b.submit "Blog It"%>
+        <%end%>
+      </div>
+    </div>
+  </div>
+</div>

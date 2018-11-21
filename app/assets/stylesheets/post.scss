@@ -1,0 +1,48 @@
+// Place all the styles related to the post controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.blog_page{
+  background-color: #FBE8A6;
+}
+
+.title_and_blog{
+  margin-left: 40%;
+
+}
+
+.blogit{
+  margin: 15% 0 2% 17%;
+  // margin-top: 15%;
+  // margin-left: 17%;
+  // margin-bottom: 2%;
+
+}
+
+.wrapper{
+  background-color: #F4976C;
+  width: 35%;
+  padding: 4vh;
+  border-radius: 15px;
+  border: 3px solid #303c6c;
+}
+//
+// .write_blog{
+//   margin: 20vh 70vh
+// }
+
+.blog_title{
+  font-size: 120%;
+  height: 4vh;
+  width: 20vw;
+}
+
+.blog_content{
+  height: 20vh;
+  width: 20vw;
+  font-size: 120%;
+}
+
+.commentText{
+font-size: 16px;
+}

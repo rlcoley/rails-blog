@@ -1,0 +1,43 @@
+// Place all the styles related to the blogs controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.blog-page{
+  background-color: #FBE8A6;
+}
+
+.back{
+  float: right;
+  margin-right: 2%;
+}
+
+.seePost{
+  margin-top: 5%;
+  margin-left: 35%;
+}
+
+.all_blogs{
+  width: 40%;
+  margin: 4% auto;
+  // border: 2px solid #F4976C;
+}
+
+.each_blog{
+  padding: 2%;
+  background-color: #F4976C;
+  display: grid;
+  border-radius: 15px;
+  border: 3px solid #303c6c;
+}
+
+.posted_by{
+  // border:2px solid;
+  width: 20%;
+}
+
+.title_content{
+  margin-left: 30%;
+  // border: 2px solid;
+  position: relative;
+  top: -20px;
+}

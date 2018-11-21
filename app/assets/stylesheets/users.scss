@@ -1,0 +1,69 @@
+// Place all the styles related to the users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.loginForm{
+  width: 100%;
+  margin: 20px auto;
+}
+
+.page{
+  background-color: #FBE8A6;
+}
+
+.signupForm{
+  position: relative;
+  top: 7vh;
+  left: 60vh;
+  background-color: #F4976C;
+  width: 30%;
+  height: 50%;
+  padding: 2%;
+  border-radius: 15px;
+  border: 2px solid #303c6c;
+}
+
+.bothLoginForms{
+  background-color: #F4976C;
+  position: relative;
+  top: 20vh;
+  left: 70vh;
+  width: 15%;
+  padding: 3%;
+  border-radius: 15px;
+  border: 2px solid #303c6c;
+}
+
+h3{
+  position: relative;
+  top: 23%;
+  left: 47%;
+}
+
+.emailLogin{
+  width: 70%;
+  height: 20px;
+  border-radius: 7px;
+  margin-bottom: 7%;
+}
+
+.passwordLogin{
+  width: 70%;
+  height: 20px;
+  border-radius: 7px;
+  margin-bottom: 7%;
+}
+
+.test{
+  border-radius: 6px;
+}
+
+// .forgotForm{
+//   background-color: #F4976C;
+//   // width: 30%;
+//   padding: 2%;
+//   border-radius: 15px;
+//   position: relative;
+//   top: 25vh;
+//   left: 50vh;
+// }

@@ -1,0 +1,19 @@
+<!-- <h1>All Blogs</h1> -->
+
+<div class="blog-page">
+
+  <div class="all_blogs">
+    <% @blogs.each do |b| %>
+      <br>
+      <div class="each_blog">
+        <div class="posted_by">By: <%= b.user.username %></div>
+        <br>
+        <div class="title_content">
+          <div class=""> <a href="/blogs/ <%= b.id %>"><%= b.title%></a> </div>
+          <div>Content: <%= b.content %></div>
+        </div>
+      </div>
+    <% end %>
+  </div>
+
+</div>

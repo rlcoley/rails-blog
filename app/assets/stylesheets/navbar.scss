@@ -1,0 +1,59 @@
+.navbar{
+  background-color: #303c6c;
+  // border: 2px solid;
+  padding: 30px;
+  // font-family: 'Anton', sans-serif;
+}
+
+h2{
+  // font-family: 'Anton', sans-serif;
+  background-color: #303c6c;
+  width: 100px;
+  color: #F4976C;
+  // position: absolute;
+  // top: 10px;
+
+}
+
+ul{
+  display: inline-block;
+  background-color: #303c6c;
+  color:white;
+  position: absolute;
+  right: 10px;
+  top: 20px;
+}
+ul li{
+  display: inline-block;
+  background-color: #303c6c;
+  color:white;
+  margin: 10px;
+  // margin: 2px;
+}
+ul li a{
+  display: inline-block;
+  background-color: #303c6c;
+  color: #FBE8A6;
+  text-decoration: none;
+  // margin: 20px;
+}
+
+
+.singup_login a{
+  text-decoration: none;
+  color: #FBE8A6;
+}
+
+
+ol{
+  display: inline-block;
+  text-decoration: none;
+  position: absolute;
+  right: 10px;
+  top: 40px;
+  font-family: 'Anton', sans-serif;
+}
+
+li{
+  display: inline-block;
+}

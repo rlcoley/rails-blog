@@ -1,0 +1,43 @@
+<div class="page">
+  <br>
+  <br>
+  <div class="back">
+    <i class="fas fa-arrow-left"> <%= link_to "Back", :back%></i>  
+  </div>
+  <br>
+
+  <div class="seePost">
+      <br>
+      <br>
+      <div class="wrapper">
+        <div class="ti">Title: <strong> <%=@blog.title%></strong> </div>
+
+        <div class="con"> Content: <%=@blog.content%> </div>
+        <%= link_to "Delete", blog_path, method: :delete%>
+        <br>
+        <br>
+        <hr>
+         <br>
+        <div class="">
+          <h4>Leave A Comment</h4>
+          <br>
+        </div>
+          <%= form_for [@blog, @blog.comments.build] do |f| %>
+          <%= f.text_area :content, class:"commentText"%>
+          <%= f.submit %>
+          <%end%>
+
+          <strong><p>Comments:</p></strong>
+
+
+          <% @blog.comments.each do |c|%>
+            <br>
+            <em id="comments"><%#= c.user.fname %> <%= c.content %></em>
+            <div class="bubbles one"></div>
+            <div class="bubbles two"></div>
+            <div class="bubbles three"></div>
+
+          <% end%>
+        </div>
+  </div>
+</div>
