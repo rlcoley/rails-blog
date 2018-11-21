@@ -1,4 +1,8 @@
 # README
+Fullstack project, with the prupose of demonstrating knowledge in rails. 
+before running server, 
+run the command bundle install
+
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
