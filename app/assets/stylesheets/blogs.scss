@@ -37,7 +37,12 @@
 
 .title_content{
   margin-left: 30%;
-  // border: 2px solid;
   position: relative;
   top: -20px;
+}
+
+.content{
+  // border: 2px solid;
+  width: 70%;
+  overflow: scroll;
 }

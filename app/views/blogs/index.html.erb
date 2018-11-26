@@ -9,8 +9,8 @@
         <div class="posted_by">By: <%= b.user.username %></div>
         <br>
         <div class="title_content">
-          <div class=""> <a href="/blogs/ <%= b.id %>"><%= b.title%></a> </div>
-          <div>Content: <%= b.content %></div>
+          <div class=""> <strong><a href="/blogs/ <%= b.id %>"><%= b.title%></a></strong> </div>
+          <div class="content"> <%= b.content %></div>
         </div>
       </div>
     <% end %>
